@@ -1,0 +1,56 @@
+.nama-tamu {
+    position: absolute;
+    width: 145px;
+    height: 70px;
+    left: 155px;
+    bottom: 195px;
+    padding: 8px;
+    font-size: 12px;
+    text-align: center;
+    overflow: auto;
+    font-family: 'montserrat';
+    font-weight: 600;
+}
+
+.buka-undangan>span::before {
+    content: "";
+    width: 0px;
+    height: 400px;
+    background-color: #496C9C;
+    position: absolute;
+    top: -150px;
+    rotate: -40deg;
+    left: -10px;
+    z-index: -1;
+    transition: all .6s;
+}
+
+.buka-undangan>span:hover {
+    color: white;
+}
+
+.buka-undangan>span:hover::before {
+    width: 300px;
+}
+
+.buka-undangan>span {
+    position: relative;
+    transition: all .6s;
+    z-index: 1;
+}
+
+.buka-undangan {
+    position: absolute;
+    left: 173px;
+    overflow: hidden;
+    cursor: pointer;
+    bottom: 135px;
+    padding: 5px 8px;
+    font-size: 11px;
+    text-align: center;
+    border-radius: 5px;
+    border: 2px solid #496C9C;
+    font-family: 'montserrat';
+    font-weight: 600;
+    z-index: 0;
+}

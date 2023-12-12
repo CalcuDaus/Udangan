@@ -59,7 +59,7 @@
 
 .cover {
     position: relative;
-    top: 75%;
+    top: 53%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
@@ -177,6 +177,6 @@
 
 .teks-pembuka p:nth-child(9) {
     color: whitesmoke;
-    font-size: 12px;
+    font-size: 11px;
     font-family: poppins;
 }

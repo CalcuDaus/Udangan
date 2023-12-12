@@ -22,7 +22,7 @@
     rotate: -40deg;
     left: -10px;
     z-index: -1;
-    transition: all .6s;
+    transition: all 1.6s;
 }
 
 .buka-undangan>span:hover {
@@ -35,9 +35,11 @@
 
 .buka-undangan>span {
     position: relative;
-    transition: all .6s;
+    transition: all 1.6s;
     z-index: 1;
 }
+
+
 
 .buka-undangan {
     position: absolute;
@@ -56,11 +58,65 @@
 }
 
 .cover {
+    position: relative;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
     overflow: hidden;
     transition: all .9s;
     height: 725px;
+    background-color: white;
+}
+
+.wrapper {
+    position: fixed;
+    width: 100%;
+    background-color: white;
+    z-index: 99;
+    overflow: hidden;
+    transition: all .9s;
+
+    height: 200vh;
 }
 
 .cover-active {
-    height: 0;
+    height: 0vh;
+}
+
+/* ornament */
+
+.ornament-bunga-1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.516));
+}
+
+.ornament-bunga-2 {
+    position: absolute;
+    top: 0;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.516));
+    right: 0;
+}
+
+.ornament-burung {
+    position: absolute;
+    top: 101px;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.516));
+    right: 30%;
+}
+
+.bismillah {
+    position: absolute;
+    top: 221px;
+    filter: drop-shadow(2px 2px 5px rgba(0, 0, 0, 0.516));
+    right: 30%;
+}
+
+.sec-1 {
+    width: 420px;
+}
+
+.bg-pastel-blue {
+    background-color: #496C9C;
 }

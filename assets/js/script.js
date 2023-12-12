@@ -1,3 +1,3 @@
 document.querySelector(".buka-undangan").addEventListener("click", () => {
-  document.querySelector(".cover").classList.toggle("cover-active");
+  document.querySelector(".wrapper").classList.toggle("cover-active");
 });

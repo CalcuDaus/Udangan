@@ -4,19 +4,20 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Wedding Invitation</title>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
     <link rel="stylesheet" href="assets/css/always-css.min.css" />
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body class="bg-pastel-blue">
     <main class="w-100 d-flex j-center f-column a-center">
       <!-- S: Cover -->
-      <!-- <div class="wrapper">
+      <div class="wrapper">
         <div class="container cover">
           <img src="assets/img/background-depan.webp" alt="" width="450px" />
           <div class="nama-tamu">Muhaamad Firdaus Soossksksksk</div>
           <button class="buka-undangan"><span>Buka Undangan</span></button>
         </div>
-      </div> -->
+      </div>
       <!-- E: Cover -->
       <!-- S: Content -->
       <div class="container content">
@@ -35,7 +36,7 @@
           />
           <img
             src="assets/img/burung.png"
-            width="170px"
+            width="190px"
             alt=""
             class="ornament-burung"
           />
@@ -45,7 +46,12 @@
             alt=""
             class="bismillah"
           />
-          <div class="teks-pembuka">
+          <div
+            class="teks-pembuka"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+          >
             <p>Assalamu’alaikum Warahmatullahi Wabarakatuh</p>
             <p>
               Dengan memohon rahmat dan ridho Allah SWT, kami bermaksud <br />
@@ -68,8 +74,16 @@
             width="170px"
             class="ornament-kayu"
             style="rotate: 180deg"
+            data-aos="fade-down"
+            data-aos-delay="50"
+            data-aos-duration="1500"
           />
-          <div class="wrapper-surah">
+          <div
+            class="wrapper-surah"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+          >
             <span class="surah-arrum">
               “ Dan di antara tanda-tanda (kebesaran)-Nya ialah Dia menciptakan
               <br />
@@ -88,11 +102,30 @@
             alt=""
             width="170px"
             class="ornament-kayu"
+            data-aos="fade-up"
+            data-aos-delay="50"
+            data-aos-duration="1500"
+          />
+          <img
+            src="assets/img/bunga-3.png"
+            width="120px"
+            alt=""
+            class="ornament-bunga-3"
+          />
+          <img
+            src="assets/img/bunga-3-flip.png"
+            width="120px"
+            alt=""
+            class="ornament-bunga-4"
           />
         </section>
       </div>
       <!-- E: Content -->
     </main>
     <script src="assets/js/script.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>

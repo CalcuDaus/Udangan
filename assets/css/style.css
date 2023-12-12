@@ -75,7 +75,6 @@
     z-index: 99;
     overflow: hidden;
     transition: all .9s;
-
     height: 200vh;
 }
 
@@ -119,4 +118,65 @@
 
 .bg-pastel-blue {
     background-color: #496C9C;
+}
+
+/* section 1 */
+.teks-pembuka {
+    padding-top: 250px;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../font/Fontfabric\ -\ Nexa\ Script\ Light.otf);
+}
+
+@font-face {
+    font-family: mySecondFont;
+    src: url(../font/Fontfabric\ -\ Nexa\ Script\ Bold.otf);
+}
+
+.teks-pembuka p:nth-child(1) {
+    color: whitesmoke;
+    font-family: myFirstFont;
+}
+
+.teks-pembuka p:nth-child(2) {
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: poppins;
+}
+
+.teks-pembuka h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(255, 255, 255);
+    color: #c69141;
+    font-size: 40px;
+    font-family: mySecondFont;
+    margin: 20px 0 0 0;
+}
+
+.teks-pembuka h1:nth-child(7) {
+    margin-top: 0px;
+}
+
+.teks-pembuka p:nth-child(4) {
+    color: whitesmoke;
+    font-family: myFirstFont;
+}
+
+.teks-pembuka p:nth-child(5) {
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: poppins;
+}
+
+.teks-pembuka p:nth-child(8) {
+    color: whitesmoke;
+    font-family: myFirstFont;
+}
+
+.teks-pembuka p:nth-child(9) {
+    color: whitesmoke;
+    font-size: 12px;
+    font-family: poppins;
 }

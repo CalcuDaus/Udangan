@@ -12,6 +12,7 @@
     font-weight: 600;
 }
 
+
 .buka-undangan>span::before {
     content: "";
     width: 0px;
@@ -56,6 +57,7 @@
     font-weight: 600;
     z-index: 0;
 }
+
 
 .cover {
     position: relative;
@@ -231,6 +233,10 @@
 @media screen and (max-width:425px) {
     .wrapper {
         width: 112%;
+    }
+
+    body {
+        margin: 0 0 0 20px;
     }
 }
 

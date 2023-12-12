@@ -261,6 +261,23 @@
     width: 420px;
 }
 
+.sec-2::after {
+    content: "";
+    background: url(../img/bunga-saja.png);
+    width: 430px;
+    height: 430px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 65%;
+    filter: blur(1px);
+    opacity: .2;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
 .teks-content-sec-2 {
     padding: 100px 10px 10px 10px;
 }
@@ -350,6 +367,22 @@
 
     body {
         margin: 0 0 0 20px;
+    }
+
+    main {
+        margin-left: 8px;
+    }
+}
+
+@media screen and (max-width:375px) {
+    main {
+        margin-left: 15px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    main {
+        margin-left: 35px;
     }
 }
 

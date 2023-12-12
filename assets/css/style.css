@@ -116,6 +116,23 @@
     width: 420px;
 }
 
+.sec-1::after {
+    content: "";
+    background: url(../img/bunga-saja.png);
+    width: 430px;
+    height: 430px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    top: 65%;
+    filter: blur(1px);
+    opacity: .2;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: -1;
+}
+
 .bg-pastel-blue {
     background-color: #496C9C;
 }
@@ -177,8 +194,18 @@
 
 .teks-pembuka p:nth-child(9) {
     color: whitesmoke;
-    font-size: 11px;
+    font-size: 10.5px;
     font-family: poppins;
+}
+
+.wrapper-surah {
+    padding: 0 10px;
+}
+
+.wrapper-surah>.surah-arrum {
+    color: whitesmoke;
+    font-family: 'poppins';
+    font-size: 10.5px;
 }
 
 @media screen and (max-width:425px) {

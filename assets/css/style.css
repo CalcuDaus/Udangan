@@ -78,7 +78,7 @@
     background-color: white;
     z-index: 99;
     overflow: hidden;
-    transition: all .9s;
+    transition: all 4.9s;
     height: 3650px;
 }
 

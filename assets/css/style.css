@@ -1,7 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 
 html {
-    width: 100vh;
+    width: 450px;
+}
+
+main {
+    overflow-x: hidden;
 }
 
 .nama-tamu {
@@ -165,7 +169,7 @@ html {
 }
 
 .sec-1 {
-    width: 420px;
+    width: 450px;
 }
 
 .sec-1::after {
@@ -262,7 +266,7 @@ html {
 
 /* section 2 */
 .sec-2 {
-    width: 420px;
+    width: 450px;
 }
 
 .sec-2::after {
@@ -366,7 +370,7 @@ html {
 
 /* Section 3 */
 .sec-3 {
-    width: 420px;
+    width: 450px;
 }
 
 .sec-3::after {

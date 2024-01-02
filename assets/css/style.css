@@ -65,7 +65,7 @@
 
 .cover {
     position: relative;
-    top: 10%;
+    top: 29%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
@@ -80,7 +80,7 @@
     background-color: white;
     z-index: 99;
     overflow: hidden;
-    transition: all 4.9s;
+    transition: all 2.9s;
     height: 3650px;
 }
 
@@ -423,7 +423,7 @@
     background-color: #eee;
     width: 250px;
     border-radius: 20px;
-    padding: 8px;
+    padding: 20px 8px 28px 8px;
     color: #496C9C;
 }
 
@@ -467,7 +467,15 @@
     margin: 20px 0;
     box-shadow: 2px 3px 15px rgba(0, 0, 0, 0.416);
 }
-
+.alamat-rumah{
+    padding: 5px 15px;
+    background-color: #496C9C;
+    color: white;
+    text-decoration: none;
+    font-family: 'poppins';
+    font-weight: 600;
+    font-size: 14px;
+}
 
 @media screen and (max-width:451px) {
     html {

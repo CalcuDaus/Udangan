@@ -43,9 +43,6 @@
     transition: all 1.6s;
     z-index: 1;
 }
-
-
-
 .buka-undangan {
     position: absolute;
     left: 173px;
@@ -65,7 +62,7 @@
 
 .cover {
     position: relative;
-    top: 16%;
+    top: 9%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
@@ -81,7 +78,7 @@
     z-index: 99;
     overflow: hidden;
     transition: all 2.9s;
-    height: 3650px;
+    height: 4619px;
 }
 
 .cover-active {
@@ -328,19 +325,19 @@
 
 .ornament-daun-1 {
     position: absolute;
-    top: 440px;
+    top: 525px;
     left: -10px;
 }
 
 .ornament-bunga-rangkai-2 {
     position: absolute;
-    top: 480px;
+    top: 550px;
     left: 190px;
 }
 
 .ornament-daun-2 {
     position: absolute;
-    top: 440px;
+    top: 525px;
     right: -10px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -348,7 +345,7 @@
 
 .ornament-daun-3 {
     position: absolute;
-    bottom: -70px;
+    bottom: -100px;
     left: -10px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -357,14 +354,16 @@
 
 .ornament-daun-4 {
     position: absolute;
-    bottom: -70px;
+    bottom: -100px;
     right: -10px;
     rotate: -20deg;
 }
 
 .ornament-bunga-sec-2 {
     position: absolute;
-    bottom: -120px;
+    bottom: -80px;
+    left: 160px;
+    rotate: 180deg;
     transform: translate(-50%, -50%);
 }
 
@@ -731,6 +730,54 @@
     padding-top: 10px;
     padding-bottom: 10px;
     border-bottom: 1.5px solid rgb(217, 217, 217);
+  }
+  .sec-2  h1{
+    font-family: myFirstFont;
+    font-size: 50px;
+    color: #c69141;
+    text-shadow: 2px 2px 2px white;
+  }
+  .sec-2  h2{
+    font-family: 'Monserrat',Arial;
+    font-size: 30px;
+    color: #c69141;
+    text-shadow: 1px 1px 2px white;
+  }
+  .pt-cus{
+    padding: 40px 10px 10px 10px !important;
+  }
+  .plank{
+    width: 100px;
+    height: 4px;
+    background-color: #ddd;
+    display: block;
+    margin: 40px auto;
+  }
+  .teks-sec-4{
+    font-size: 16px !important;
+    color: whitesmoke;
+    font-family: 'poppins';
+  }
+  .img-box{
+    width: 80px;
+    background-color: whitesmoke;
+    border-radius: 50%;
+    
+  }
+  .bot-2{
+    top: unset;
+    rotate: 180deg;
+    bottom: -120px !important;
+    right: unset;
+    left: 0px;
+  }
+  .bot-1{
+    rotate: 180deg;
+    top: unset;
+    left: unset;
+    right: 0px;
+    bottom: -120px !important;
+ 
   }
 
 @media screen and (max-width:451px) {

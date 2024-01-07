@@ -278,7 +278,10 @@
 }
 
 .teks-content-sec-2 {
-    padding: 175px 10px 10px 10px;
+    padding: 75px 10px 10px 10px;
+}
+.teks-content-sec-2-2 {
+    padding: 175px 19px 10px 20px;
 }
 
 .teks-content-sec-2 p:nth-child(9) {
@@ -325,19 +328,19 @@
 
 .ornament-daun-1 {
     position: absolute;
-    top: 525px;
+    top: 425px;
     left: -10px;
 }
 
 .ornament-bunga-rangkai-2 {
     position: absolute;
-    top: 550px;
+    top: 455px;
     left: 190px;
 }
 
 .ornament-daun-2 {
     position: absolute;
-    top: 525px;
+    top: 425px;
     right: -10px;
     -webkit-transform: scaleX(-1);
     transform: scaleX(-1);
@@ -792,9 +795,16 @@
     background-color: white;
     border: 2px solid #c69141;
     border-radius: 10px;
+    margin-top: 10px;
     transition: all .3s;
     cursor: pointer;
-    font-size: 16px;
+  }
+  .bank{
+    background-color: rgba(203, 203, 203, 0.264);
+    backdrop-filter: blur(10px);
+    padding: 20px 60px;
+    border-radius: 20px;
+    margin: 20px 0;
   }
 
 @media screen and (max-width:451px) {

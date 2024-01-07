@@ -500,6 +500,9 @@
   .p-form {
     padding: 6px;
   }
+  .t-dark{
+    color: rgb(35, 35, 35) !important;
+  }
   
   .bg-transparent {
     background-color: transparent;

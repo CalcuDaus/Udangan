@@ -62,7 +62,7 @@
 
 .cover {
     position: relative;
-    top: 11%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
     overflow: hidden;
@@ -214,7 +214,7 @@
     -webkit-text-stroke-width: 1px;
     -webkit-text-stroke-color: rgb(255, 255, 255);
     color: #c69141;
-    font-size: 38px;
+    font-size: 68px;
     font-family: mySecondFont;
     margin: 20px 0 0 0;
 }
@@ -226,22 +226,26 @@
 .teks-pembuka p:nth-child(4) {
     color: whitesmoke;
     font-family: myFirstFont;
+    font-size: 17px;
+
 }
 
 .teks-pembuka p:nth-child(5) {
     color: whitesmoke;
-    font-size: 12px;
+    font-size: 16px;
     font-family: poppins;
 }
 
 .teks-pembuka p:nth-child(8) {
     color: whitesmoke;
     font-family: myFirstFont;
+    font-size: 17px;
+
 }
 
 .teks-pembuka p:nth-child(9) {
     color: whitesmoke;
-    font-size: 10.5px;
+    font-size: 16.5px;
     font-family: poppins;
 }
 
@@ -281,7 +285,7 @@
     padding: 75px 10px 10px 10px;
 }
 .teks-content-sec-2-2 {
-    padding: 175px 19px 10px 20px;
+    padding: 115px 19px 10px 20px;
 }
 
 .teks-content-sec-2 p:nth-child(9) {
